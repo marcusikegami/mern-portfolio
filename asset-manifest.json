@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/mern-portfolio-v2/static/css/main.bf8b9fd6.css",
-    "main.js": "/mern-portfolio-v2/static/js/main.e0d4f60a.js",
-    "static/js/787.1d6f483a.chunk.js": "/mern-portfolio-v2/static/js/787.1d6f483a.chunk.js",
-    "static/media/6.png": "/mern-portfolio-v2/static/media/6.cf2ffbcfbb9d53c0e771.png",
-    "static/media/5.png": "/mern-portfolio-v2/static/media/5.9cf73121ad8d32d815aa.png",
-    "static/media/4.png": "/mern-portfolio-v2/static/media/4.262c2d96d408de14aed8.png",
-    "static/media/avatar.jpg": "/mern-portfolio-v2/static/media/avatar.5db4d381efcc90c5b887.jpg",
-    "static/media/1.png": "/mern-portfolio-v2/static/media/1.bb5d171a2c5a39625833.png",
-    "static/media/2.png": "/mern-portfolio-v2/static/media/2.5bd3dd0d06e2de8c29c7.png",
-    "static/media/3.png": "/mern-portfolio-v2/static/media/3.5bd3dd0d06e2de8c29c7.png",
-    "index.html": "/mern-portfolio-v2/index.html",
-    "main.bf8b9fd6.css.map": "/mern-portfolio-v2/static/css/main.bf8b9fd6.css.map",
-    "main.e0d4f60a.js.map": "/mern-portfolio-v2/static/js/main.e0d4f60a.js.map",
-    "787.1d6f483a.chunk.js.map": "/mern-portfolio-v2/static/js/787.1d6f483a.chunk.js.map"
+    "main.css": "/mern-portfolio/static/css/main.bf8b9fd6.css",
+    "main.js": "/mern-portfolio/static/js/main.d9489406.js",
+    "static/js/787.1d6f483a.chunk.js": "/mern-portfolio/static/js/787.1d6f483a.chunk.js",
+    "static/media/6.png": "/mern-portfolio/static/media/6.cf2ffbcfbb9d53c0e771.png",
+    "static/media/5.png": "/mern-portfolio/static/media/5.9cf73121ad8d32d815aa.png",
+    "static/media/4.png": "/mern-portfolio/static/media/4.262c2d96d408de14aed8.png",
+    "static/media/avatar.jpg": "/mern-portfolio/static/media/avatar.5db4d381efcc90c5b887.jpg",
+    "static/media/1.png": "/mern-portfolio/static/media/1.bb5d171a2c5a39625833.png",
+    "static/media/2.png": "/mern-portfolio/static/media/2.5bd3dd0d06e2de8c29c7.png",
+    "static/media/3.png": "/mern-portfolio/static/media/3.5bd3dd0d06e2de8c29c7.png",
+    "index.html": "/mern-portfolio/index.html",
+    "main.bf8b9fd6.css.map": "/mern-portfolio/static/css/main.bf8b9fd6.css.map",
+    "main.d9489406.js.map": "/mern-portfolio/static/js/main.d9489406.js.map",
+    "787.1d6f483a.chunk.js.map": "/mern-portfolio/static/js/787.1d6f483a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bf8b9fd6.css",
-    "static/js/main.e0d4f60a.js"
+    "static/js/main.d9489406.js"
   ]
 }
