@@ -854,7 +854,7 @@ img.avatar {
 .socials {
   display: inline-block;
   padding: 1rem;
-  border: 4px solid #;
+  border: 4px solid var(--primary);
   border-radius: 8px;
 }
 
