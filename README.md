@@ -15,6 +15,7 @@ This is my personal portfolio which contains applications I have built using tec
 ## Installation
 
 No installation necessary, navigate to the gh-pages link to view: 
+https://marcusikegami.github.io/mern-portfolio/
 
 ## Usage
 
