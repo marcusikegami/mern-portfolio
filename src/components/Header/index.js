@@ -18,7 +18,7 @@ function Header(props) {
         <ul className="flex-row">
             {categories.map((category) => {
                let selectedCategory;
-                if (currentCategory.name === category.name && !contactSelected) {
+                if (currentCategory.name === category.name) {
                   selectedCategory = true;
                 } else {
                   selectedCategory = false;
@@ -27,7 +27,6 @@ function Header(props) {
             return (
               <li className={`ml-2 my-1 px-2 py-1 no-style ${selectedCategory ? 'bg-secondary text-dark' : 'text-secondary bg-dark'}`} 
               key={category.name} onClick={() => {
-                setContactSelected(false);
                 setCurrentCategory(category);
                 console.log(currentCategory);
                 console.log(selectedCategory);
@@ -36,14 +35,6 @@ function Header(props) {
             ><a className="style-none" href="#top">{category.name}</a></li>
             )}
             )}
-            <li key="resume" className={`ml-2 my-1 px-2 py-1 no-style text-secondary bg-dark`} 
-            onClick={() => {
-              setContactSelected(false);
-              setCurrentCategory(categories[0]);
-            }
-            } ><a className="style-none" href="#resume">Resume</a></li>
-            <li className={`ml-2 my-1 px-2 py-1 no-style ${contactSelected ? 'bg-secondary text-dark' : 'text-secondary bg-dark'}`} 
-            onClick={() => setContactSelected(true)} key="contact">Contact</li>
         </ul>
         
       </div>

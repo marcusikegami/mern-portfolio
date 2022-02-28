@@ -6,15 +6,16 @@ function About() {
       
       
       <div className="flex-row justify-space-between">
-      
+      <a  href="https://docs.google.com/document/d/1FQh9yajEJq-egtX-1eg_8DY-Hx_iiIdqqcRKJ1nygRA/edit?usp=sharing" target="_blank" rel="noopener noreferrer" >
+                <h5 id="resume" className="text-dark bg-primary p-2 display-inline-block">Resume on Google Docs <img src={require('../../assets/exit-top-right.png')} alt="Link to resume"/> </h5>
+            </a>
           <div className="col-12 mb-2 bg-dark text-light p-3">
             <div className="flex-row">
                 <div className="col-3 about">
                     <img className="avatar" src={require('../../assets/images/avatar.jpg')} alt="Marcus Ikegami"/>
                 </div>
                 <div className="col-9 about">
-                    <p className="about">I am a capable web-developer with many applications that use technologies like MongoDB, Express.js, React.js and Node.js among other code libraries. I will receive my certificate in Full-Stack Web Development from Trilogy Education Services on February 23rd, 2022. 
-                        I find programming to be the most interesting and rewarding thing I have ever studied. I am looking to begin a career in the field of Web Development with anticipation and excitement.
+                    <p className="about">Web developer trained by the University of Utah in full-stack web technologies such as JavaScript, React, Node.js, Express.js, MongoDB and MySQL. Passionate about learning and growth in the field of web development and working with others to create in-demand web applications. Strong desire to learn how things work and find enjoyment learning computer science fundamentals. My skills using modern, in-demand web technologies combined with curiosity and desire to grow with the industry make me a strong addition to any development team.
                         Please contact me via the provided information to set up an interview.
                     </p>
                 </div>
@@ -24,12 +25,11 @@ function About() {
             <div className="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
                 <h3 className="portfolio-item-title text-light">Front-end Proficiencies</h3>
                 <ul>
-                    <li>JavaScript // HTML // CSS</li>
-                    <li>React // Redux // MVC Architecture</li>
+                    <li>JavaScript – HTML – CSS</li>
+                    <li>React – Redux – MVC Architecture</li>
                     <li>Progressive Web Application Design, Agile Development, DRY principle</li>
                     <li>Object-oriented design</li>
-                    <li>Git</li>
-                    <li>Bootstrap // Can easily learn other CSS libraries</li>
+                    <li>Bootstrap – Can easily learn other CSS libraries</li>
                     <li>UI/UX testing</li>
                 </ul>
                 <p>I enjoy creating responsive web applications and fine tuning them to meet the greater vision in my mind. Working with the UI/UX I am able to channel express creativity while finding unique solutions to problems/limitations of my designs.</p>
@@ -37,19 +37,27 @@ function About() {
             <div className="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
                 <h3 className="portfolio-item-title text-light">Back-end Proficiencies</h3>
                 <ul>
-                    <li>Node.js // Express.js</li>
-                    <li>Apollo Server // GraphQL</li>
+                    <li>Node.js – Express.js</li>
+                    <li>Apollo Server – GraphQL</li>
                     <li>RESTful API design</li>
-                    <li>MySQL2 // Sequelize</li>
-                    <li>NoSql // MongoDB // Mongoose</li>
+                    <li>MySQL2 – Sequelize</li>
+                    <li>NoSql – MongoDB – Mongoose</li>
                     <li>Writing unit tests to ensure application function and database structure</li>
                 </ul>
                 <br/>
                 <p>I find working with servers, databases, and APIs to be very rewarding and exciting. I am looking to expand my knowledge/expertise in this area to enhance my full-stack programming capability.</p>
             </div>      
-            <a  href="https://docs.google.com/document/d/1FQh9yajEJq-egtX-1eg_8DY-Hx_iiIdqqcRKJ1nygRA/edit?usp=sharing" rel="noopener noreferrer" >
-                <h5 id="resume" className="text-dark bg-primary p-2 display-inline-block">Resume on Google Docs <img src={require('../../assets/exit-top-right.png')} alt="Link to resume"/> </h5>
-            </a>
+            
+            <h2 className="text-dark bg-primary p-2 display-inline-block">Contact Me</h2>
+          <div className="col-12 mb-2 bg-dark text-light p-3">
+           
+                <div className="col-9 about">
+                    <ul>
+                        <li>Email: <img src={require('../../assets/exit-top-right.png')} alt="Link to open default email program"/> <a className="style-none" href="mailto:hikegami.6@gmail.com">hikegami.6@gmail.com</a></li>
+                        <li>Cellphone - Text/Call: (801)598-6965</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </section>
  );

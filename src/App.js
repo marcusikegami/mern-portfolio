@@ -28,18 +28,11 @@ function App() {
         categories={categories}
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
-        contactSelected={contactSelected}
-        setContactSelected={setContactSelected}
     ></Header>
     <main className='container my-5'>
-    {!contactSelected ? (
-      <>
-      <Body currentCategory={currentCategory}>
-      </Body>
-      </>
-    ) : (
-      <Contact></Contact>
-    )}
+    
+      <Body currentCategory={currentCategory} />
+    
     </main>
     
 

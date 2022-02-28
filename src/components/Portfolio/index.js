@@ -8,7 +8,7 @@ function Portfolio() {
         github: 'https://github.com/marcusikegami/deep-thoughts',
         livelink: 'https://sheltered-garden-29890.herokuapp.com/',
         image: '1',
-        uses: 'React, React DOM, Apollo Server Express.js, GraphQL'
+        uses: 'React, React DOM, Apollo Server Express.js, Mongoose, GraphQL'
      },
      {
         name: 'BreakRoom Blogsite',
@@ -19,15 +19,15 @@ function Portfolio() {
         uses: 'Bcrypt, MySQL2, Sequelize, Handlebars.js, node.js'
      },
      {
-        name: 'Book Search Engine Placeholder',
-        description: 'placeholder until Book Search Engine is completed',
+        name: 'Book Search Engine',
+        description: "Fully functional book search engine that uses Google's Book API to search for books using a search query. The back end was originally set up following RESTful API construction but altered to utilize ApolloServer/Client/GraphQL to allow a user to create an account and save/delete books.",
         github: 'https://github.com/marcusikegami/book-search-engine',
-        livelink: 'https://github.com/marcusikegami/book-search-engine',
+        livelink: 'https://cryptic-shelf-81985.herokuapp.com/',
         image: '3',
-        uses: '...'
+        uses: 'Mongoose, ApolloServer/Client, GraphQL, React.js/Redux,'
      },
      {
-        name: 'Phone Number Capture Using JavaScript Regular Expresssions',
+        name: 'Phone Number Capture Using JavaScript Regular Expressions',
         description: 'Demonstration of my ability to notate and describe code: This tutorial describes how to match and return the digits from various phone number formats using JavaScript Regular Expression syntax.',
         github: 'https://gist.github.com/marcusikegami/04d1f6cbca7a8a1db8e3b5fc8e46dcf7',
         livelink: 'https://gist.github.com/marcusikegami/04d1f6cbca7a8a1db8e3b5fc8e46dcf7',
