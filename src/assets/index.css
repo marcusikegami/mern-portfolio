@@ -3,7 +3,7 @@
   --secondary: #e9f5db;
   --tertiary: #ff3d2e;
   --light: #ffffff;
-  --dark: #3e4438;
+  --dark: #3e4438c1;
   --border-radius: 0.3rem;
   --spacing-one: calc(1rem * 0.25);
   --spacing-two: calc(1rem * 0.5);
@@ -830,7 +830,6 @@ img.icon {
   max-height: 50px;
 }
 img.image {
-  margin-top: 2rem;
   
   height: 140px;
   max-width: auto;
@@ -866,6 +865,17 @@ div.col-3 {
  
  display: inline-block;
 }
+
+.width-min {
+  width: fit-content;
+
+  flex-wrap: nowrap;
+}
+
+/* TOOLTIP VIA https://www.w3schools.com/css/css_tooltip.asp*/
+
+/* Tooltip container */
+
 @media screen and (max-width: 640px) {
   header {
     background-color: var(--primary);

@@ -59,20 +59,21 @@ function Portfolio() {
                 <div className="col-12 mb-2 bg-dark text-light p-3">
                   <div className="flex-row">
                     <div className="left col-8">
-                        <h3 className="portfolio-item-title text-light">{project.name}</h3>
-                        <h5 className="portfolio-languages">
+                        <h3 className="portfolio-item-title text-light ">{project.name}</h3>
+                        <h5 className="portfolio-languages pt-3">
                             Built With: {project.uses}
                         </h5>
                         <p>{project.description}</p>
-                        
+                        <div className="bg-primary width-min p-1">
                         <a href={project.livelink}  rel="noreferrer noopener" target="_blank">
                             <img className="icon" src={require('../../assets/open-in-browser.png')} alt="hosted app / youtube link"/>
                         </a>
                         <a href={project.github} rel="noreferrer noopener" target="_blank">
                             <img className="icon" src={require('../../assets/github.png')} alt="github link"/>
                         </a>
+                        </div>
                     </div>
-                    <div className="col-4 right">
+                    <div className="col-4 right pt-4">
                         <img className="image" src={require(`../../assets/images/${project.image}.png`)} alt={project.name} key={project.name}/>
                     </div>
                   </div>
