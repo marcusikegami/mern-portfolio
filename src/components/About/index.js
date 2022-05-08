@@ -23,7 +23,7 @@ function About() {
           </div>
           
             <div className="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
-                <h3 className="portfolio-item-title text-light">Front-end Proficiencies</h3>
+                <h3 className="bg-primary portfolio-item-title text-dark p-2">Front-end Proficiencies</h3>
                 <ul>
                     <li>JavaScript – HTML – CSS</li>
                     <li>React – Redux – MVC Architecture</li>
@@ -35,7 +35,7 @@ function About() {
                 <p>I enjoy creating responsive web applications and fine tuning them to meet the greater vision in my mind. Working with the UI/UX I am able to channel express creativity while finding unique solutions to problems/limitations of my designs.</p>
             </div> 
             <div className="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
-                <h3 className="portfolio-item-title text-light">Back-end Proficiencies</h3>
+                <h3 className="bg-primary portfolio-item-title text-dark p-2">Back-end Proficiencies</h3>
                 <ul>
                     <li>Node.js – Express.js</li>
                     <li>Apollo Server – GraphQL</li>
@@ -48,7 +48,7 @@ function About() {
                 <p>I find working with servers, databases, and APIs to be very rewarding and exciting. I am looking to expand my knowledge/expertise in this area to enhance my full-stack programming capability.</p>
             </div>      
             
-            <h2 className="text-dark bg-primary p-2 display-inline-block">Contact Me</h2>
+            <h2 className="text-dark bg-primary p-2 display-inline-block mb-3 mt-2">Contact Me</h2>
           <div className="col-12 mb-2 bg-dark text-light p-3">
            
                 <div className="col-9 about">
