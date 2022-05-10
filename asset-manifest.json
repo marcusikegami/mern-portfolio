@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/mern-portfolio/static/css/main.fc2ba351.css",
-    "main.js": "/mern-portfolio/static/js/main.55b90871.js",
+    "main.css": "/mern-portfolio/static/css/main.5dd87620.css",
+    "main.js": "/mern-portfolio/static/js/main.e97be5db.js",
     "static/js/787.1d6f483a.chunk.js": "/mern-portfolio/static/js/787.1d6f483a.chunk.js",
     "static/media/3.png": "/mern-portfolio/static/media/3.683aa289ecee853a2bd7.png",
     "static/media/6.png": "/mern-portfolio/static/media/6.cf2ffbcfbb9d53c0e771.png",
@@ -13,12 +13,12 @@
     "static/media/2 - Copy.png": "/mern-portfolio/static/media/2 - Copy.5bd3dd0d06e2de8c29c7.png",
     "static/media/2.png": "/mern-portfolio/static/media/2.5bd3dd0d06e2de8c29c7.png",
     "index.html": "/mern-portfolio/index.html",
-    "main.fc2ba351.css.map": "/mern-portfolio/static/css/main.fc2ba351.css.map",
-    "main.55b90871.js.map": "/mern-portfolio/static/js/main.55b90871.js.map",
+    "main.5dd87620.css.map": "/mern-portfolio/static/css/main.5dd87620.css.map",
+    "main.e97be5db.js.map": "/mern-portfolio/static/js/main.e97be5db.js.map",
     "787.1d6f483a.chunk.js.map": "/mern-portfolio/static/js/787.1d6f483a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc2ba351.css",
-    "static/js/main.55b90871.js"
+    "static/css/main.5dd87620.css",
+    "static/js/main.e97be5db.js"
   ]
 }
