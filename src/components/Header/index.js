@@ -5,9 +5,7 @@ function Header(props) {
   const {
     categories = [],
     setCurrentCategory,
-    contactSelected,
     currentCategory,
-    setContactSelected,
     } = props;
     
     return (
@@ -28,9 +26,6 @@ function Header(props) {
               <li className={`ml-2 my-1 px-2 py-1 no-style ${selectedCategory ? 'bg-secondary text-dark' : 'text-secondary bg-dark'}`} 
               key={category.name} onClick={() => {
                 setCurrentCategory(category);
-                console.log(currentCategory);
-                console.log(selectedCategory);
-                console.log(categories);
               }} 
             ><a className="style-none" href="#top">{category.name}</a></li>
             )}
@@ -41,5 +36,4 @@ function Header(props) {
     </header>
     )
 }
-
 export default Header;

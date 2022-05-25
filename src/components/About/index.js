@@ -37,7 +37,8 @@ function About() {
             <div className="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
                 <h3 className="br bg-primary portfolio-item-title text-dark p-2">Back-end Proficiencies</h3>
                 <ul>
-                    <li>Node.js – Express.js</li>
+                    <li><img alt="nodejs badge" src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white"></img></li>
+                    <li><img alt="" src=""></img></li>
                     <li>Apollo Server – GraphQL</li>
                     <li>RESTful API design</li>
                     <li>MySQL2 – Sequelize</li>
